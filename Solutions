@@ -1,0 +1,12 @@
+Solution 1
+
+The code defines a Java class "NewClass" that contains a method "getLargest". The method takes in an integer array 'arr' and its size 'sz' as inputs and returns the largest product of two elements in the array.
+
+To calculate the time complexity (Big O) of this algorithm, we need to analyze the number of operations it performs. The algorithm performs a nested loop, with the outer loop running 'sz-1' times and the inner loop running 'sz' times. The number of operations performed is about O(n^2), where 'n' is the size of the input array.
+
+However, this calculation assumes that the product calculation takes constant time. If the size of the input array is very large, the product calculation might take longer, and the actual time complexity of the algorithm would be higher than O(n^2).
+
+Solution 2
+
+The binary search approach is a quick and efficient way of finding the heavy bag of M&Ms among 20 bags. By dividing the bags into two equal groups and weighing them, we can quickly narrow down our search to identify which group contains the heavier bag. 
+We then repeat this process until only one bag remains, thus identifying it as the heavy one. This algorithm has an average time complexity of O(log n), making it relatively fast compared to other approaches for solving this problem.
